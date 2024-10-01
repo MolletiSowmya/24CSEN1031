@@ -1,0 +1,16 @@
+//Oline C compiler to run c program online
+#include <stdio.h>
+
+int main() {
+    int num,q,r,i;
+    printf("ENTER A NUMBER:");
+scanf("%d", &num);
+q= num;
+while( q>0){
+     r=q%10;
+     printf("%d\n", r);
+     q=q/10;
+}
+return 0;
+}
+ 
