@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int i =-4;
+    printf("Value of i : %d and its address: %u",i, &i);
+    
+    int *ptr_i;
+    ptr_i = &i;
+    printf("\nValue of ptr_i : %u and value pointed by the pointer is : %d", ptr_i, *ptr_i); 
+
+    i=i+34;
+    
+    printf("\nUpdated value of i: %d",*ptr_i);
+    
+    
+    return 0;
+}
